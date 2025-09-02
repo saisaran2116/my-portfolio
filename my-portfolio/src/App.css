@@ -40,3 +40,121 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.portfolio-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+  padding: 32px 40px;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.portfolio-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+  color: #3a3a5d;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6c63ff;
+  margin-bottom: 0;
+}
+
+.about-section, .skills-section, .projects-section {
+  margin-bottom: 32px;
+}
+
+.about-section h2,
+.skills-section h2,
+.projects-section h2 {
+  font-size: 1.5rem;
+  color: #6c63ff;
+  margin-bottom: 12px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #e0e7ff;
+  color: #3a3a5d;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.project-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(44, 62, 80, 0.12);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #3a3a5d;
+}
+
+.project-card a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.project-card a:hover {
+  color: #22223b;
+  text-decoration: underline;
+}
+
+.portfolio-footer {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 1rem;
+  color: #6c63ff;
+}
+
+.portfolio-footer a {
+  color: #6c63ff;
+  margin: 0 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.portfolio-footer a:hover {
+  text-decoration: underline;
+  color: #22223b;
+}
